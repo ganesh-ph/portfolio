@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Phone, Linkedin, Twitter, Github, MapPin, Send } from "lucide-react";
+import { Mail, Phone, Linkedin, Twitter, MapPin, Send } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/constants";
 
 export default function ContactPage() {
@@ -231,15 +231,6 @@ export default function ContactPage() {
                   aria-label="Twitter"
                 >
                   <Twitter className="w-5 h-5" />
-                </a>
-                <a
-                  href={SITE_CONFIG.social.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 rounded-lg bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 transition-all"
-                  aria-label="GitHub"
-                >
-                  <Github className="w-5 h-5" />
                 </a>
               </div>
             </div>

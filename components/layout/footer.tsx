@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatedFooter } from "@/components/layout/animated-footer";
-import { Twitter, Linkedin, Github, Mail } from "lucide-react";
+import { Twitter, Linkedin, Mail } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/constants";
 
 export function Footer() {
@@ -15,11 +15,6 @@ export function Footer() {
       icon: <Twitter className="w-6 h-6" />,
       href: SITE_CONFIG.social.twitter,
       label: "Twitter",
-    },
-    {
-      icon: <Github className="w-6 h-6" />,
-      href: SITE_CONFIG.social.github,
-      label: "GitHub",
     },
     {
       icon: <Mail className="w-6 h-6" />,

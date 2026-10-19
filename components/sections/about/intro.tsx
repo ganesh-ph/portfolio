@@ -61,7 +61,7 @@ export function AboutIntro() {
           </button>
           
           <a 
-            href="mailto:halladmalganesh@gmail.com"
+            href="mailto:ganeshph.etl@gmail.com"
             style={{ position: 'relative', zIndex: 9999 }}
             className="flex items-center justify-center gap-2 hover:-translate-y-0.5 transition border-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400 py-3 px-8 rounded-full hover:bg-indigo-50 dark:hover:bg-indigo-900/20 cursor-pointer"
           >

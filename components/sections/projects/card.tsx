@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from "react";
 import type { MouseEvent } from "react";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Project } from "@/lib/types";
 import Image from "next/image";
 
@@ -103,17 +103,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
           </div>
 
           <div className="mt-auto flex gap-3">
-            {project.githubUrl && (
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 text-sm font-medium bg-gradient-to-r from-indigo-600 to-[#8A7DFF] text-white rounded-lg hover:opacity-90 transition-all duration-300 hover:scale-105"
-              >
-                <Github className="w-4 h-4" />
-                GitHub
-              </a>
-            )}
             {project.liveUrl && (
               <a
                 href={project.liveUrl}
