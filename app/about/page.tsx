@@ -39,10 +39,10 @@ export default function AboutPage() {
         </section>
       </div>
 
-      {/* Experience Section */}
-      <div className="mb-32">
+      {/* Experience Section — temporarily hidden */}
+      {/* <div className="mb-32">
         <AboutExperience />
-      </div>
+      </div> */}
 
       {/* About Expertise Section */}
       <div className="mb-20">
